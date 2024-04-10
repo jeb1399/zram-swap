@@ -13,7 +13,7 @@ export PATH=/usr/sbin:/usr/bin:/sbin:/bin
 [ "$#" -gt "0" ] && [ "$1" = "-x" ] && shift && set -x
 
 # set sane defaults, see /etc/default/zram-swap for explanations
-_zram_fraction="1/2"
+_zram_fraction="3/4"
 _zram_algorithm="lz4"
 _comp_factor=''
 _zram_fixedsize=''
